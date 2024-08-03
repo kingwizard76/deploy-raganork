@@ -16,7 +16,7 @@
         "MULTI_HANDLERS": {
             "description": "Use prefix as given handlers and also without handlers",
             "required": true,
-            "value":"false"
+            "value":"true"
         },
         "READ_MESSAGES": {
             "description": "Bot will read all messages. Can be also false",
@@ -51,7 +51,7 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"denking"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
@@ -61,7 +61,7 @@
         "MODE": {
             "description": "Private or public",
             "required": true,
-            "value":"private"
+            "value":"public"
         },
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
@@ -96,7 +96,7 @@
         "AUTO_READ_STATUS": {
             "description": "View status updates automatically",
             "required": false,
-            "value":"true"
+            "value":"false"
         },
         "ALIVE": {
             "description": "Alive message, customize your alive msg by looking wiki",
@@ -105,7 +105,8 @@
         },
        "SESSION": {
             "description": "Your session code, obtained by scanning QR",
-            "required": true         
+            "required": true 
+           "value" :"Raganork~78cb1a821f2710c3801897de937f3971:524b6875477856334e34383d" 
         }
     },
     "addons": [{
